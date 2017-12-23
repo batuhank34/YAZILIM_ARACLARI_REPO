@@ -8,6 +8,10 @@ public class Hesaplama {
 
 	public static void main(String[] args){
 		int sonuc = topla(19, 25);
+		int sonuc2 = cikarma(30, 20);
+		int sonuc3 = bolme(10, 2);
+		int sonuc4 = carpma(100, 1);
+
 		System.out.println(sonuc);
 	}
 	
@@ -25,9 +29,7 @@ public class Hesaplama {
 	public static int /* (4) */ topla( /* (1) */ int sayi1, /* (2) */ int sayi2 /* (3) */ ) 
 			throws NullPointerException // (5) Firlatilan hata */
 	{
-		if(11111111==sayi1) {
-			throw new NullPointerException();
-		}
+		
 		
 		return sayi1 + sayi2;
 	}
