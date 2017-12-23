@@ -13,6 +13,10 @@ public class Hesaplama {
 		int sonuc4 = carpma(100, 1);
 
 		System.out.println(sonuc);
+		System.out.println(sonuc2);
+		System.out.println(sonuc3);
+		System.out.println(sonuc4);
+
 	}
 	
 	/**
