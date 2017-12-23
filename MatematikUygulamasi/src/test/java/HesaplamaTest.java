@@ -18,8 +18,6 @@ public class HesaplamaTest {
 	
 	
 	
-	
-	
 	@Test
 	public void testTopla25ve14() {
 		int gercekSonuc = Hesaplama.topla(25, 14);
