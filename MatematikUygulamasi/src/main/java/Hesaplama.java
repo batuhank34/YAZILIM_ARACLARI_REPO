@@ -17,6 +17,7 @@ public class Hesaplama {
 		System.out.println(sonuc3);
 		System.out.println(sonuc4);
 
+		
 	}
 	
 	/**
