@@ -17,18 +17,7 @@ public class HesaplamaTest {
 	}
 	
 	
-	@Test
-	public void testClass() {
-		boolean hataOlustu = false;
-		try {
-			Hesaplama hesaplama = new Hesaplama();
-		} catch (Exception e) {
-			hataOlustu = true;
-		}
-		
-		assertFalse(hataOlustu);
-		
-	}
+	
 	
 	
 	@Test
