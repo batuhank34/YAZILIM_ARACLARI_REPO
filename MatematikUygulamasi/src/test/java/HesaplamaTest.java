@@ -44,7 +44,7 @@ public class HesaplamaTest {
 	@Test
 	public void testBolme() {
 		int gercekSonuc = Hesaplama.cikarma(20,10);
-		assertEquals(2, gercekSonuc);
+		assertEquals(10, gercekSonuc);
 	}
 	
 	
