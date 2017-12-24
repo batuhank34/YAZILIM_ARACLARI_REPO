@@ -5,6 +5,34 @@ import org.junit.Test;
 public class HesaplamaTest {
 
 	@Test
+	public void testClass() {
+		boolean hataOlustu = false;
+		try {
+			Hesaplama hesaplama = new Hesaplama();
+		} catch(Exception e) {
+			hataOlustu = true;
+		}
+		
+		assertFalse(hataOlustu);
+	}
+	/*
+	@Test(expected = UnsupportedOperationException.class)
+	public void testToplaUnsupported1() {
+		Hesaplama.topla(10000000, 3);
+	}
+	
+	@Test(expected = UnsupportedOperationException.class)
+	public void testToplaUnsupported2() {
+		Hesaplama.topla(3, 10000000);
+	}
+	
+	@Test(expected = UnsupportedOperationException.class)
+	public void testToplaUnsupported3() {
+		Hesaplama.topla(10000000, 10000000);
+	}
+	*/
+	
+	@Test
 	public void testToplaHepsi() {
 		
 		for (int sayi1=-10000; sayi1<10001; sayi1++) {

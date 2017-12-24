@@ -7,17 +7,18 @@
 public class Hesaplama {
 
 	public static void main(String[] args){
-		int sonuc = topla(19, 25);
-		int sonuc2 = cikarma(30, 20);
-		int sonuc3 = bolme(10, 2);
-		int sonuc4 = carpma(100, 1);
-
-		System.out.println(sonuc);
-		System.out.println(sonuc2);
-		System.out.println(sonuc3);
-		System.out.println(sonuc4);
-
 		
+		islemler(10, 5);
+	
+	}
+	
+	public static int islemler(int sayi1, int sayi2) {
+		int sonuc1 = topla(sayi1, sayi2);
+		int sonuc2 = carpma(sayi1, sayi2);
+		int sonuc3 = cikarma(sayi1, sayi2);
+		int sonuc = bolme(sayi1, sayi2);
+		System.out.println(sonuc);
+		return sonuc;
 	}
 	
 	/**
