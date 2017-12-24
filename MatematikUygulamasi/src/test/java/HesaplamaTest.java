@@ -45,7 +45,11 @@ public class HesaplamaTest {
 		
 	}
 	
-	
+	@Test
+	public void testIslemler() {
+		int gercekSonuc = Hesaplama.islemler(10,2);
+		assertEquals(5, gercekSonuc);
+	}
 	
 	
 	@Test
