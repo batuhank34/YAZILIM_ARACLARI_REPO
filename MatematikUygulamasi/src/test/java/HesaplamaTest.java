@@ -15,7 +15,7 @@ public class HesaplamaTest {
 		
 		assertFalse(hataOlustu);
 	}
-	
+	/*
 	@Test(expected = UnsupportedOperationException.class)
 	public void testToplaUnsupported1() {
 		Hesaplama.topla(10000000, 3);
@@ -30,6 +30,7 @@ public class HesaplamaTest {
 	public void testToplaUnsupported3() {
 		Hesaplama.topla(10000000, 10000000);
 	}
+	*/
 	
 	
 	@Test

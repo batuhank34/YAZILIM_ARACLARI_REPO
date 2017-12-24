@@ -13,10 +13,13 @@ public class Hesaplama {
 	}
 	
 	public static int islemler(int sayi1, int sayi2) {
+		/*
 		int sonuc1 = topla(sayi1, sayi2);
 		int sonuc2 = carpma(sayi1, sayi2);
 		int sonuc3 = cikarma(sayi1, sayi2);
+		*/
 		int sonuc = bolme(sayi1, sayi2);
+		
 		System.out.println(sonuc);
 		return sonuc;
 	}
