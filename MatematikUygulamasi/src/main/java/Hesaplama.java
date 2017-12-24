@@ -1,16 +1,16 @@
 /**
  * Hesaplama Islemlerinden sorumlu sinif
  * 
- * @author Ozkan Sari
+ * @author Batuhan Kutluay
  *
  */
 public class Hesaplama {
 
 	public static void main(String[] args){
-		
 		islemler(10, 5);
 	
 	}
+	
 	
 	public static int islemler(int sayi1, int sayi2) {
 		
