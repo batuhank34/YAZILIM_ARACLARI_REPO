@@ -10,7 +10,7 @@ public class Hesaplama {
 		islemler(10, 5);
 	
 	}
-	
+
 	
 	public static int islemler(int sayi1, int sayi2) {
 		

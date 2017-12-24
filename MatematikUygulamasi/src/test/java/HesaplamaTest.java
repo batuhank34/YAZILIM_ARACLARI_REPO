@@ -1,28 +1,10 @@
 import static org.junit.Assert.*;
-
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-
 import org.junit.Test;
 
 public class HesaplamaTest {
 
 	
 	
-	private static final Hesaplama Main = null;
-
-	@Test
-	public void testMain() throws IOException {
-	    System.out.println("main");
-	    String[] args = null;
-	    final InputStream original = System.in;
-	    final FileInputStream fips = new FileInputStream(new File("/Users/kutluay/YAZILIM_ARACLARI_REPO-master/MatematikUygulamasi/src/main/java/Hesaplama.java"));
-	    System.setIn(fips);
-	    Main.main(args);
-	    System.setIn(original);
-	}
 	@Test
 	public void testClass() {
 		boolean hataOlustu = false;
