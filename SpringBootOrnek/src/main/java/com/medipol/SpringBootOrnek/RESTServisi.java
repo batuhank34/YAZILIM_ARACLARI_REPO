@@ -24,6 +24,7 @@ public class RESTServisi {
 		return OGRENCILER;
 	}
 	
+	
 	@RequestMapping("/ogrenci/temizle")
 	public String ogrenciTemizle()
 	{
