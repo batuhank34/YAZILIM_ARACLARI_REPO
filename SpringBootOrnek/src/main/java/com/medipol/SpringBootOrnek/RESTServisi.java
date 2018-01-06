@@ -31,6 +31,7 @@ public class RESTServisi {
 		OGRENCILER.clear();
 		return "OK";
 	}
+	
 
 }
 
